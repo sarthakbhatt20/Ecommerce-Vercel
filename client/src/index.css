@@ -5,7 +5,6 @@
   box-sizing:border-box;
 }
 
-/* //navbar css */
 .navbar {
   font-family: "Poppins", sans-serif;
   font-size: 17px;
@@ -30,18 +29,17 @@
   letter-spacing: 3px;
 }
 
-/* =============================
-==========footer============= */
+
 
 .footer {
   color: white;
   padding: 25px;
-  background: #000000; /* fallback for old browsers */
+  background: #000000; 
   background: -webkit-linear-gradient(
     to right,
     #434343,
     #000000
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  );
   background: linear-gradient(to right, #434343, #000000);
 }
 
@@ -56,8 +54,7 @@
   border-bottom: 1px solid #ffefba;
 }
 
-/* =================================
-======== page not found css ======= */
+
 .pnf {
   display: flex;
   min-height: 65vh;
@@ -87,8 +84,7 @@
   color: white;
 }
 
-/* ========================================= */
-/* =========contact us ========= */
+
 .contactus {
   margin: 0;
   padding: 0;
@@ -98,7 +94,6 @@
   justify-content: center;
 }
 
-/* ==================== */
 .product-link {
   text-decoration: none !important;
   color: black !important;
@@ -114,7 +109,6 @@
   color: white;
 }
 
-/* register */
 .form-container {
   margin-top: 60px;
   display: flex;
@@ -155,17 +149,17 @@
 
 .form-container form button:hover {
   border: 1px solid black;
-  background: #000000; /* fallback for old browsers */
+  background: #000000; 
   background: -webkit-linear-gradient(
     to right,
     #434343,
     #000000
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(
     to right,
     #434343,
     #000000
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  );
 }
 
 .forgot-btn {
@@ -188,9 +182,9 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-} */
+} 
 
-/* // <uniquifier>: Use a unique and descriptive class name */
+
 
 .playfair-display {
   font-family: "Playfair Display", serif;
@@ -204,7 +198,7 @@
   color: black !important;
 }
 
-/* Product Details */
+Product Details
 .product-details {
   margin-top: 100px !important;
 }
@@ -212,7 +206,7 @@
 .product-details-info {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  align-items: center;
   justify-content: center;
 }
 
@@ -256,7 +250,6 @@
   height: 300px !important;
 }
 
-/*HomePage*/
 .banner-img {
   margin-top: 60px;
 }
@@ -304,9 +297,7 @@
 .home-page .card-img-top {
   height: 300px !important;
 }
-/* ==================
-filters
-============== */
+
 .filters h4 {
   margin-top: 100px;
   color: gray !important;
@@ -339,7 +330,7 @@ filters
   font-size: 20px !important;
 }
 
-/*Category Products*/
+
 .category {
   flex-wrap: wrap;
   margin-top: 80px !important;
@@ -379,7 +370,6 @@ filters
   height: 300px !important;
 }
 
-/*Cart-style*/
 .cart-page {
   margin-top: 64px;
 }
@@ -407,5 +397,4 @@ filters
 }
 .cart-page .cart-summary {
   text-align: center;
-  /* margin-top: -140px !important; */
 }
