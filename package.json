@@ -2,7 +2,6 @@
   "name": "my-e-comm",
   "version": "1.0.0",
   "description": "ecomm rest api",
-  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node index.js",
